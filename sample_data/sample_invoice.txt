@@ -1,0 +1,16 @@
+FATTURA ELETTRONICA
+
+Fornitore: Officina Elettrica Rossi Srl
+Partita IVA: IT01234567890
+Cliente: Bianchi SPA
+
+Numero Fattura: FE-2026-0417
+Data: 15/07/2026
+
+Descrizione: Manutenzione impianto elettrico e fornitura materiali
+
+Imponibile: 1.200,00 EUR
+IVA (22%): 264,00 EUR
+Totale: 1.464,00 EUR
+
+Modalità di pagamento: Bonifico bancario, 30 giorni data fattura.
