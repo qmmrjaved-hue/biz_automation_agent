@@ -10,11 +10,37 @@ Public value:
 """
 
 import os
+import streamlit as st
 from dataclasses import dataclass, field
 
 from dotenv import load_dotenv
 
 load_dotenv()
+
+
+def _get_secret(name: str) -> str:
+    try:
+        return st.secrets.get(name) or os.getenv(name, "")
+    except Exception:
+        return os.getenv(name, "")
+
+load_dotenv()
+
+
+def _get_secret(name: str) -> str:
+    try:
+        return st.secrets.get(name) or os.getenv(name, "")
+    except Exception:
+        return os.getenv(name, "")
+
+load_dotenv()
+
+
+def _get_secret(name: str) -> str:
+    try:
+        return st.secrets.get(name) or os.getenv(name, "")
+    except Exception:
+        return os.getenv(name, "")
 
 
 def _bool(name: str, default: bool) -> bool:
