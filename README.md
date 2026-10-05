@@ -2,7 +2,7 @@
 
 A unified AI agent for small businesses in Italy. One controller, six
 modular skills, routed by natural language:
-
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bizautomationagent-ehjvbmyowjpx5qmvj38srt.streamlit.app/)
 1. **Document processing** — extract structured fields from invoices,
    receipts, and contracts (PDF/TXT); validate; save to Excel/Sheets/Postgres;
    summarize.
