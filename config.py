@@ -53,7 +53,7 @@ def _bool(name: str, default: bool) -> bool:
 @dataclass
 class Settings:
     # LLM
-    gemini_api_key: str = field(default_factory=lambda: os.getenv("GEMINI_API_KEY", ""))
+    gemini_api_key: str = field(default_factory=lambda: _get_secret("GEMINI_API_KEY"))
     gemini_model: str = field(default_factory=lambda: os.getenv("GEMINI_MODEL", "gemini-2.5-flash"))
 
     # Safety switch — when True (default) any action that would leave the
