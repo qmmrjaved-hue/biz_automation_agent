@@ -126,7 +126,8 @@ def _footer():
 
 
 def _gemini_warning():
-    if not settings.gemini_api_key:
+    key = st.secrets.get("GEMINI_API_KEY") or settings.gemini_api_key
+    if not key:
         st.markdown(f'<div class="baa-warn">{t("gemini_warning", LANG)}</div>', unsafe_allow_html=True)
         return True
     return False
